@@ -7,8 +7,4 @@
 #### 2. Различия JVM, JRE, JDK
 ![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/jdk-jre-jvm.png "")
 
-3. Типы данных
-  JVM работает с двумя типами данных: примитивы и ссылочные типы
-
-3.1 Примитивы
-3.2 Ссылочные типы
+3. Виды Garbage Collector
