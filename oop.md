@@ -14,4 +14,4 @@
 
   Композиция означает сильный вид связи: когда внедряемый объект не может существовать отдельно от проектируемого класса. В таком случае объект создается в самом классе. 
 
-  ![alt-текст](https://github.com/Primisen/interview/blob/master/association.png "")
+  ![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/association.png "")
