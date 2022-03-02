@@ -87,3 +87,9 @@ Parent static block(s) → Child static block(s) → Grandchild static block(s)
 
 #### 18. Допустима ли запись try-finally (без catch)?
 Да, но в такой записи мало смысла.
+
+19. Что делает метод `clone()` класса `Object`?
+
+20. Виды ссылок в Java
+
+21. Как создать неизменяемый класс в Java?
