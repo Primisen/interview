@@ -1,6 +1,7 @@
 #### 1. Иерархия Collection Framework
 
 ![](https://github.com/Primisen/interview/blob/master/pictures/collection-hierarchy.png "")
+![](https://github.com/Primisen/interview/blob/master/pictures/map-hierarchy.png "")
 
 #### 2. Есть ли коллекции, которые наследуют несколько интерфейсов?
 
