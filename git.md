@@ -11,3 +11,7 @@ Git rebase:
 Еще про rebase.
 Как делать не надо (из ветки main сделан rebase ветки feature):
 ![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/git-rebase-BAD-practice.png "так делать не надо")
+
+
+#### 2. cherry-peak
+Позволяет забрать коммит из одной ветку и вставить ее в текущую. 
