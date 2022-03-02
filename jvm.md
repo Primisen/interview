@@ -5,7 +5,7 @@
   Также JVM отвечает за сборку мусора и управляет памятью. 
 
 #### 2. Различия JVM, JRE, JDK
-![alt-текст](https://github.com/Primisen/interview/blob/master/jdk-jre-jvm.png "")
+![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/jdk-jre-jvm.png "")
 
 3. Типы данных
   JVM работает с двумя типами данных: примитивы и ссылочные типы
