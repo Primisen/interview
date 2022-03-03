@@ -29,4 +29,4 @@ Gradle основан на графе задач, которые могут за
 
 #### 5. Maven, в чем отличие `dependency` от `dependency-managment`?
 
-#### 6. `scopy` в `maven`
+#### 6. `scope` в `maven`
