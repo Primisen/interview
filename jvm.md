@@ -8,3 +8,4 @@
 ![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/jdk-jre-jvm.png "")
 
 #### 3. Виды Garbage Collector
+#### 4. Загрузчики классов
