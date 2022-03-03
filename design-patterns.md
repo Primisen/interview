@@ -18,3 +18,5 @@
 `Decorator c = new DecoratorHello(new DecoratorComma(new DecoratorSpace(new MainComponent())));`
 
 #### 4. Виды `Proxy`, в чем их отличия
+
+#### 5. Паттерн `Facade`
