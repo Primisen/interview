@@ -34,7 +34,7 @@ Gradle основан на графе задач, которые могут за
 #### 7. Как в `Maven` вынести версии зависимостей Spring в одно место? 
     
     <properties>
-        ___<spring.version>4.2.0.RELEASE</spring.version>___
+        <spring.version>4.2.0.RELEASE</spring.version>
         <maven-clean.version>2.6.1</maven-clean.version>
     </properties>
 
