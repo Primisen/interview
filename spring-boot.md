@@ -24,7 +24,7 @@
 Создать файл `application.properties` путь которого `src/main/resources/application.properties` со следующим содержимым:   
 ###### MySQL:
 spring.jpa.hibernate.ddl-auto=update   
-spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example   
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example&serverTimezone=UTC   
 spring.datasource.username=springuser   
 spring.datasource.password=ThePassword   
 spring.datasource.driver-class-name =com.mysql.jdbc.Driver   
