@@ -32,7 +32,7 @@ Gradle основан на графе задач, которые могут за
 #### 6. `scope` в `maven`
 
 #### 7. Как в `Maven` вынести версии зависимостей Spring в одно место? 
-    `<properties>
+    <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
         <maven-clean.version>2.6.1</maven-clean.version>
     </properties>
@@ -44,4 +44,4 @@ Gradle основан на графе задач, которые могут за
             <artifactId>spring-context-support</artifactId>
             <version>${spring.version}</version>
         </dependency>
-    </dependencies>`
+    </dependencies>
