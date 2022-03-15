@@ -30,3 +30,18 @@ Gradle основан на графе задач, которые могут за
 #### 5. Maven, в чем отличие `dependency` от `dependency-managment`?
 
 #### 6. `scope` в `maven`
+
+#### 7. Как в `Maven` вынести версии зависимостей Spring в одно место? 
+    `<properties>
+        <spring.version>4.2.0.RELEASE</spring.version>
+        <maven-clean.version>2.6.1</maven-clean.version>
+    </properties>
+
+    <dependencies>
+        <!-- Spring Framework -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+    </dependencies>`
