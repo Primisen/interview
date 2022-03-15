@@ -1,3 +1,6 @@
+
+## Maven
+
 #### 1. Какие есть сборщики проектов?
 Maven, Gradle, Ant
 
@@ -45,3 +48,9 @@ Gradle основан на графе задач, которые могут за
             <version>${spring.version}</version>
         </dependency>
     </dependencies>
+
+#### 8. Maven. В какой форме лучше записывать <groupId> и <artifactId>?   
+
+
+## Gradle  
+## Common 
