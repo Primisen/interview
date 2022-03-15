@@ -23,10 +23,9 @@
 #### 6. Как подключиться к БД? 
 Создать файл `application.properties` путь которого `src/main/resources/application.properties` со следующим содержимым:   
 ###### MySQL:
-`spring.jpa.hibernate.ddl-auto=update   
-spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example   
+spring.jpa.hibernate.ddl-auto=update   
 spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example   
 spring.datasource.username=springuser   
 spring.datasource.password=ThePassword   
 spring.datasource.driver-class-name =com.mysql.jdbc.Driver   
-#spring.jpa.show-sql: true`
+#spring.jpa.show-sql: true
