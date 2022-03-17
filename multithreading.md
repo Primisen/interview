@@ -147,4 +147,10 @@ _Основные методы атомиков._
 Современный компьютер имеет 2 и более ядра. В каждом ядре могут одновременно выполняться потоки многопоточного приложения.
 (Дальше ничего не понятно)
 
-![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0.png "")
+![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0.png "")   
+
+#### 2. Atomicity, Visibility, Reordering
+
+__Atomicity.__ Операции с примитивными типами атомарны. (double и long исключение)   
+__Visibility.__ Поток видит изменения выполненные в другом потоке
+__Reordering.__ Поток может увидеть порядок операций другого потока отличный от настоящего порядка операций.
