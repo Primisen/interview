@@ -18,3 +18,9 @@ Git rebase:
 
 #### 3. Как из нескольких коммитов сделать одни? 
 `git squash`
+
+#### 4. Состояния файлов
+изменён (__modified__), индексирован (__staged__) и зафиксирован (__committed__)
+
+#### 5. Жизненный цикл файлов
+Unmodified -> Modified -> (git add) -> Staged -> (git commit) -> Unmodified
