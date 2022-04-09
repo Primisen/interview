@@ -24,3 +24,10 @@ Git rebase:
 
 #### 5. Жизненный цикл файлов
 Unmodified -> Modified -> (git add) -> Staged -> (git commit) -> Unmodified
+
+#### 6. interactive rabse
+Инструмент для исправления коммитов.
+
+#### 7. `git stash` и `git stash applye`
+`git stash` - откладывает изменения
+`git stash applye` - возвращает отложенные изменения
