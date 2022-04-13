@@ -63,4 +63,7 @@ _OneToOne_ не рекомендуется использовать, так ка
 3. Класс не должен быть final
 4. Должен иметь поле помеченное аннотацией `@Id`.
 
-#### 14. @Transaction
+#### 14. `@Transactional`
+https://easyjava.ru/spring/spring-data-access/izolyaciya-i-rasprostranenie-tranzakcij-v-spring/
+
+
