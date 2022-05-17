@@ -1,4 +1,4 @@
-# 1. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)     
+#### 1. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)     
 A. The exp (expiration) has not passed.    
 B. The algorithm is sufficient.    
 C. The signature matches the payload.    
@@ -7,3 +7,10 @@ E. The iss (issuer) is the auth server you expect.
 F. There is a refresh token.    
 G. The cid (client ID) is the client you expect.    
 H. The token was encrypted.    
+
+
+Answer: 
+
+
+
+#### 2. When you get a 429 response code, what should you do next
