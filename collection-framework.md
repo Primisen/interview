@@ -3,6 +3,8 @@
 ![](https://github.com/Primisen/interview/blob/master/pictures/collection-hierarchy.png "")
 ________________________________________________________________________________________________________
 
+#### 1.1 Иерархия Map
+
 ![](https://github.com/Primisen/interview/blob/master/pictures/map-hierarchy.png "")
 
 #### 2. Какие должны быть выполнены условия для элемента чтобы его можно было добавить в TreeSet?
@@ -45,5 +47,5 @@ __`Comparator`__
 
 #### 12. Чем отличаются LinkedList и ArrayList, временная сложность операций этих коллекций.
 
-#### 13. Иерархия Map
-![](https://github.com/Primisen/interview/blob/master/pictures/map_hierarchy.jpeg "")
+#### 13. Сравнение HashMap, LinkedHashMap, TreeSet
+![](https://github.com/Primisen/interview/blob/master/pictures/HashMap_vs_LinkedHashMap_vs_TreeMap "")
