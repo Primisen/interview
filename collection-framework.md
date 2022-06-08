@@ -44,3 +44,6 @@ __`Comparator`__
 #### 11. HashMap, что будет если ключ будет изменяемым объектом?
 
 #### 12. Чем отличаются LinkedList и ArrayList, временная сложность операций этих коллекций.
+
+#### 13. Иерархия Map
+![](https://github.com/Primisen/interview/blob/master/pictures/map_hierarchy.jpeg "")
