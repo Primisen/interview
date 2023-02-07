@@ -38,7 +38,7 @@ Parent static block(s) → Child static block(s) → Grandchild static block(s)
 → Grandchild non-static block(s) → Grandchild constructor
 
 #### 6. Можно ли статический метод переопределить? (@Override)
-Нет. Из-за позднего связывания.
+Нет. Из-за раннего связывания.
 
 #### 7. Можно ли статический метод перегрузить? (@Overload)
 Да.
