@@ -97,6 +97,21 @@ Parent static block(s) → Child static block(s) → Grandchild static block(s)
 * Если какой-либо член класса не поддерживает клонирование, то в методе клонирования необходимо создать новый экземпляр этого класса и скопировать каждый его член со всеми атрибутами в новый объект класса, по одному.
 
 #### 21. Виды ссылок в Java
+По сути, ссылки различаются только тем, как GC обращается с объектами, на которые они ссылаются.
+
+* StrongReference     
+Обычная ссылка, которую мы создаем каждый день. `StringBuilder builder = new StringBuilder();`. `builder` здесь — strong-ссылка.       
+ 
+* SoftReference     
+`StringBuilder builder = new StringBuilder();`     
+`SoftReference<StringBuilder> softBuilder = new SoftReference(builder);`      
+
+
+* WeakReference
+* PhantomReference      
+        
+
+https://habr.com/ru/post/169883/
 
 #### 22. Как создать неизменяемый класс в Java?
 
