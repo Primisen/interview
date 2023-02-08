@@ -35,7 +35,6 @@ https://proglib.io/p/java-sorting-algorithms
 #### 11. Что такое временная сложность?
 Это зависимость времени выполнения алгоритма от количества входных параметров. 
 
-#### 12. Сложность структур данных
-![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.png)
+
 
 
