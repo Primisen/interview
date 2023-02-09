@@ -64,5 +64,5 @@ Git rebase:
 Инструмент для исправления коммитов.
 
 #### 7. `git stash` и `git stash applye`
-`git stash` — откладывает изменения
+`git stash` — откладывает изменения         
 `git stash applye` — возвращает отложенные изменения
