@@ -19,15 +19,9 @@ Git rebase:
 #### 3. Как из нескольких коммитов сделать одни? 
 `git squash`
 
-#### 4. Состояния файлов
-изменён (__modified__), индексирован (__staged__) и зафиксирован (__committed__)
-
-#### 5. Жизненный цикл файлов
-Unmodified -> Modified -> (git add) -> Staged -> (git commit) -> Unmodified
-
-#### 6. interactive rabse
+#### 4. interactive rabse
 Инструмент для исправления коммитов.
 
-#### 7. `git stash` и `git stash applye`
+#### 5. `git stash` и `git stash applye`
 `git stash` - откладывает изменения
 `git stash applye` - возвращает отложенные изменения
