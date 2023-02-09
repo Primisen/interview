@@ -42,15 +42,15 @@ _You are changed file_, _git add_, _git commit_
             
 * При merge мы решаем возникшие конфликты в одном коммите слияния. При rebase мы проходимся по каждому коммиту, и разрешаем конфликты в каждом коммите.
                  
-Git merge: 
+Git merge:          
 ![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/git-merge.png "merge")
 
-Git rebase: 
-(P.S. из ветки feature сделан rebase ветки main)
+Git rebase:             
+(P.S. из ветки feature сделан rebase ветки main)            
 ![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/git-rebase.png "rebase")
 
-Еще про rebase.
-Как делать не надо (из ветки main сделан rebase ветки feature):
+Еще про rebase.         
+Как делать не надо (из ветки main сделан rebase ветки feature):         
 ![alt-текст](https://github.com/Primisen/interview/blob/master/pictures/git-rebase-BAD-practice.png "так делать не надо")
 
 
