@@ -56,7 +56,7 @@ Git rebase:
 #### 5. Как из нескольких коммитов сделать одни? 
 `git squash`
 
-#### 6. interactive rabse
+#### 6. interactive rebase
 Инструмент для исправления коммитов.
 
 #### 7. `git stash` и `git stash applye`
