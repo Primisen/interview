@@ -29,9 +29,9 @@ Representational State Transfer(REST) — или архитектруный ст
 `GET`, `PUT`, `DELETE` идемпотентны.
 `POST`, `PATCH` - не идемпотентны.
 
-8. Http методы
+#### 8. Http методы
 
-1. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)
+#### . When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)
 A. The exp (expiration) has not passed.
 B. The algorithm is sufficient.
 C. The signature matches the payload.
@@ -43,4 +43,4 @@ H. The token was encrypted.
 
 Answer:
 
-2. When you get a 429 response code, what should you do next
+#### . When you get a 429 response code, what should you do next
