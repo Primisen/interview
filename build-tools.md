@@ -85,7 +85,7 @@ This scope is only supported on a dependency of type pom in the <dependencyManag
 
 #### 6. Как вынести версии зависимостей Spring в одно место? 
     
-    <properties>
+    `<properties>
         <spring.version>4.2.0.RELEASE</spring.version>
         <maven-clean.version>2.6.1</maven-clean.version>
     </properties>
@@ -96,9 +96,7 @@ This scope is only supported on a dependency of type pom in the <dependencyManag
             <artifactId>spring-context-support</artifactId>
             <version>${spring.version}</version>
         </dependency>
-    </dependencies>
-
-#### 7. В какой форме лучше записывать `groupId` и `artifactId`?   
+    </dependencies>`  
 
 #### 8 Знать про стейджинги в Maven?
 
