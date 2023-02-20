@@ -5,13 +5,10 @@
 Основным преимуществом Ant является его гибкость. Ant не навязывает никаких соглашений о написании кода или структуры проекта. Следовательно, это означает, что Ant требует, чтобы разработчики сами писали все команды, что иногда приводит к огромным файлам построения XML, которые трудно поддерживать. 
 Поскольку никаких соглашений нет, простое знание Ant не означает, что мы быстро поймем любой файл сборки Ant. Скорее всего, потребуется некоторое время, чтобы привыкнуть к незнакомому файлу Ant, что является недостатком по сравнению с другими, более новыми инструментами.              
 Для описания сборки используется xml-файл           
-            
 В начале не было встроенной поддержки зависимостей, что и привело к созданию Maven
-        
-            
+                  
 * _Maven_               
 Встроенная поддержка зависимостей, строгая структура проекта. Поддерживает плагины. Также используется xml-файл для описания сборки.        
-
 Из-за строгой стандартизации, в мавен сложно описать собственные сценарии сборки, сложная настройка цели (что такое цели в maven см. ниже). Поэтому пояился Gradle, который вмещает в себе гибкость Ant и фичи Maven           
             
 * _Gradle_      
@@ -57,11 +54,36 @@ surefire:test is bound to the test phase
 install:install is bound to the install phase       
 jar:jar and war:war is bound to the package phase       
 
-#### 4 В чем отличие `<dependency>` от `<dependency-managment>`?
+#### 4. В чем отличие `<dependencies>` от `<dependencyManagement>`?
+Maven поддерживает что-то типо наследования, когда, например, у нас есть два maven-проекта и мы хотим связать их, то мы создаем третий maven-проект, который будет являться родительским для наших двух.       
+Когда у нас такой проект, есть риск того, что в кадом подпроекте будут свои _версии_ зависимостей.      
+Решением такой проблемы может быть `<dependencyManagement>`. В родительском pom.xml в теге `<dependencyManagement>` мы описываем зависимости и их версии. Далее, при добавлении зависимостей в дочерний pom.xml, мы не указываем версию — она подтягивается из родительского проекта из тега `<dependencyManagement>`. Таким образом мы можем использовать унифицированные версии для зависимостей дочерних модулей, не указывая версию в каждом дочернем модуле. 
+    
+#### 5. `scope` в зависимостях
 
-#### 5 `scope` в зависимостях
+Dependency scope is used to limit the transitivity of a dependency and to determine when a dependency is included in a classpath.
 
-#### 4. Как вынести версии зависимостей Spring в одно место? 
+There are 6 scopes:
+
+_compile_       
+This is the default scope, used if none is specified. Compile dependencies are available in all classpaths of a project. Furthermore, those dependencies are propagated to dependent projects.      
+        
+_provided_       
+This is much like compile, but indicates you expect the JDK or a container to provide the dependency at runtime. For example, when building a web application for the Java Enterprise Edition, you would set the dependency on the Servlet API and related Java EE APIs to scope provided because the web container provides those classes. A dependency with this scope is added to the classpath used for compilation and test, but not the runtime classpath. It is not transitive.          
+        
+_runtime_        
+This scope indicates that the dependency is not required for compilation, but is for execution. Maven includes a dependency with this scope in the runtime and test classpaths, but not the compile classpath.          
+        
+_test_       
+This scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases. This scope is not transitive. Typically this scope is used for test libraries such as JUnit and Mockito. It is also used for non-test libraries such as Apache Commons IO if those libraries are used in unit tests (src/test/java) but not in the model code (src/main/java).     
+        
+_system_     
+This scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository.          
+        
+_import_     
+This scope is only supported on a dependency of type pom in the <dependencyManagement> section. It indicates the dependency is to be replaced with the effective list of dependencies in the specified POM's <dependencyManagement> section. Since they are replaced, dependencies with a scope of import do not actually participate in limiting the transitivity of a dependency.
+
+#### 6. Как вынести версии зависимостей Spring в одно место? 
     
     <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
@@ -76,16 +98,16 @@ jar:jar and war:war is bound to the package phase
         </dependency>
     </dependencies>
 
-#### 5. В какой форме лучше записывать `groupId` и `artifactId`?   
+#### 7. В какой форме лучше записывать `groupId` и `artifactId`?   
 
-#### 6 Знать про стейджинги в Maven?
+#### 8 Знать про стейджинги в Maven?
 
-#### 7 Знать как они взаимодействуют?
+#### 9 Знать как они взаимодействуют?
 
-#### 8 Что такое артифакты
+#### 10 Что такое артифакты
 
-#### 9 Различие между jar - war"
+#### 11 Различие между jar - war"
 
-#### 10  Знать как добвить/изменить стейджи в Maven
+#### 12  Знать как добвить/изменить стейджи в Maven
 
-#### 11 Работа с плагинами
+#### 13 Работа с плагинами
