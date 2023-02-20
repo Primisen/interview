@@ -87,7 +87,6 @@ This scope is only supported on a dependency of type pom in the <dependencyManag
     
     <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
-        <maven-clean.version>2.6.1</maven-clean.version>
     </properties>
 
     <dependencies>
@@ -98,14 +97,12 @@ This scope is only supported on a dependency of type pom in the <dependencyManag
         </dependency>
     </dependencies>  
 
-#### 8 Знать про стейджинги в Maven?
+    
+#### 7. Различие между jar vs war
+И то, и то является архивом, но **war** используется только для web-приложений. Для запуска war-архива нам нужен сервер, напрмер, Tomcat. Также имеет строгую структуру. **Jar** может иметь любую структуру, использоваться в качестве java-библиотек, плагинов, любого другого приложения. 
+    
+#### 8. Что такое артефакты?
+Артефакт — это результат, созданный после сборки проекта Maven. Это может быть, например, jar , war или любой другой исполняемый файл.
 
-#### 9 Знать как они взаимодействуют?
-
-#### 10 Что такое артифакты
-
-#### 11 Различие между jar - war"
-
-#### 12  Знать как добвить/изменить стейджи в Maven
-
-#### 13 Работа с плагинами
+#### 9. Работа с плагинами
+Чтобы добавить Мавен-плагин в проект, его описание, аналогично зависимостям, нужно поместить в pom.xml в тег `<build>` и `<plugins>`.
