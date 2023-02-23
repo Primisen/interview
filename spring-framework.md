@@ -1,6 +1,23 @@
-#### 1. Что такое Spring Framework?
+## Spring Core
+#### 1. Scope бина
+* singleton. Создается один единственный объект в контейнере. Значение по умоланию 
+* prototype. Возможность создать несколько объектов
+* request. Создание объекта при каждом HTTP-запросе
+* session. Создается объект на каждую HTTP сессию
+* global-session. Создаётся один экземпляр бина на каждую глобальную HTTP сессию
 
-#### 2. Преимущества Spring Framework.
+#### 2. Виды автоматического связывания
+Существует четыре вида связывания в спринг:
+
+autowire byName,
+autowire byType,
+autowire by constructor,
+autowiring by @Autowired and @Qualifier annotations
+
+#### 3. @Autowired, @Qualifier, @Primary
+@Autowired находит подходящее значение по типу. @Qualifier применяется в случаях, когда по типу подходит несколько значений, поэтому невозможно определить нужное значение с помощью @Autowired. 
+
+#### 2. ApplicationContext vs BeanFactory
 
 #### 3. IoC и DI
 
