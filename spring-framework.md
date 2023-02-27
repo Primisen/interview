@@ -40,6 +40,10 @@ https://habr.com/ru/post/222579/
 
 #### 10. Какие scope есть у бинов?
 
+
+
+        
+      
 ## Spring MVC и немного REST
 
 #### 1. DispatcherServlet
