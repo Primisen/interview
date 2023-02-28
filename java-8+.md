@@ -15,8 +15,7 @@ _Sealed Classes and Interfaces_
         
 _Switch-выражения_
 Было:           
-`           
-static String formatter(Object o) {                       
+`static String formatter(Object o) {                       
     String formatted = "unknown";                 
     if (o instanceof Integer i) {                       
         formatted = String.format("int %d", i);                        
@@ -27,8 +26,7 @@ static String formatter(Object o) {
     } else if (o instanceof String s) {         
         formatted = String.format("String %s", s);          
     }             
-    return formatted;         
-`          
+    return formatted;`          
 Стало:            
 `           
 static String formatterPatternSwitch(Object o) {            
