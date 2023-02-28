@@ -15,8 +15,8 @@ _Sealed Classes and Interfaces_
         
 _Switch-выражения_
 Было:           
-`static String formatter(Object o) {                       
-    String formatted = "unknown";                 
+`static String formatter(Object o) {       
+    String formatted = "unknown";       
     if (o instanceof Integer i) {                       
         formatted = String.format("int %d", i);                        
     } else if (o instanceof Long l) {                      
