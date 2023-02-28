@@ -105,4 +105,13 @@ WebSockets — это двунаправленное, **постоянное** �
 #### 5. Как создать свой стартер?
 Краеугольным камнем инфраструктуры Spring Boot являются __AutoConfiguration-классы__, которые Spring Boot находит при запуске приложения и использует для автоматического создания и конфигурирования бинов.
 
-#### 6. 
+#### 6. `@ComponentScan`
+С помощью этой аннотации указывается место, в котором нужно искать бины для создания. Если место не указано, то сканироваться будет текущий пакет.  
+
+#### 7. `@Component`
+Помечаем класс, который хотим собрать в бин. 
+
+#### 8. `@Component` vs `@Bean`
+1. `@Component` auto detects and configures the beans using classpath scanning whereas `@Bean` explicitly declares a single bean, rather than letting Spring do it automatically.
+2.  `@Component` is a class level annotation whereas `@Bean` is a method level annotation and name of the method serves as the bean name.
+3.  `@Component` need not to be used with the `@Configuration` annotation where as `@Bean` annotation has to be used within the class which is annotated with `@Configuration`.
