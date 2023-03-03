@@ -73,4 +73,12 @@ _OneToOne_ не рекомендуется использовать, так ка
 #### 14. `@Transactional`
 https://easyjava.ru/spring/spring-data-access/izolyaciya-i-rasprostranenie-tranzakcij-v-spring/
 
+#### 15. Cascade Types
+Определяет взаимоотношения между объектами
+* ALL поддержка всех каскадных типов
+* PERSIST распространяет операцию сохранения от родительского к дочернему объекту. When we save the person entity, the address entity will also get saved
+* MERGE 
+* REMOVE если удаляем данные родителя, удалятся и дочерние данные
+* REFRESH
+* DETACH
 
