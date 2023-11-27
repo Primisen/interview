@@ -3,11 +3,13 @@
 <details>
   <summary> Spring Framework</summary>
 
-# 🌱🌱🌱🌱🌱🌱🌱🌱
+## 🌱 Spring Framework
 
-# 🌱 Spring Framework 🌱
 
-## Spring Core
+<details>
+<summary>Spring Core</summary>
+
+### Spring Core
 
 #### 1. Scope бина
 
@@ -109,7 +111,13 @@ https://habr.com/ru/post/222579/
 
 #### 13. Что такое `EntityManager`?
 
-## Spring MVC и немного REST
+</details>
+
+<details>
+<summary>Spring MVC</summary>
+
+
+### Spring MVC и немного REST
 
 #### 1. DispatcherServlet
 
@@ -175,7 +183,12 @@ WebSocket установлено, соединение остается откр
 Типичным вариантом использования может быть ситуация, когда в приложении несколько пользователей общаются друг с другом,
 например, в чате.
 
-## Spring Boot
+</details>
+
+<details>
+<summary>Spring Boot</summary>
+
+### Spring Boot
 
 #### 1. Что нам дает Spring Boot?
 
@@ -234,6 +247,8 @@ WebSocket установлено, соединение остается откр
 In short, `applicationContext` is the central interface in Spring. It provides configuration information for an
 application. `spring-servlet.xml`is part of the Spring MVC framework. We declare in this file the component scans for
 controllers.
+
+</details>
 
 </details>
 
@@ -616,7 +631,10 @@ FIFO — First in first out
 <details>
     <summary>Version Control Systems</summary>
 
-# Common question
+<details>
+<summary>Common questions</summary>
+
+### Common question
 
 #### 1. Для чего нужны системы контроля версий?
 
@@ -641,7 +659,12 @@ FIFO — First in first out
 * В Git проще процесс сливания веток, в SVN сложнее, конфликты приходится разруливать руками
 * SVN проще Git'а в освоении
 
-# Git
+</details>
+
+<details>
+<summary>Git</summary>
+
+### Git
 
 #### 1. Модели/стратегии ветвления в Git
 
@@ -712,6 +735,7 @@ Git rebase:
 `git stash applye` — возвращает отложенные изменения
 
 </details>
+</details>
 
 
 
@@ -719,7 +743,12 @@ Git rebase:
 <details>
 <summary>Build Tools</summary>
 
-## Common
+
+<details>
+<summary>Common questions</summary>
+
+
+### Common
 
 #### 1. Какие есть сборщики проектов?
 
@@ -746,7 +775,12 @@ Git rebase:
   конкретных проблем предметной области.             
   Файл конфигурации Gradle по соглашению называется build.gradle в Groovy или build.gradle.kts в Kotlin.
 
-## Maven
+</details>
+
+<details>
+<summary>Maven</summary>
+
+### Maven
 
 #### 1. Maven Build Lifecycle
 
@@ -866,6 +900,7 @@ java-библиотек, плагинов, любого другого прил�
 Чтобы добавить Мавен-плагин в проект, его описание, аналогично зависимостям, нужно поместить в pom.xml в тег `<build>`
 и `<plugins>`.
 
+</details>
 
 </details>
 
