@@ -1,6 +1,9 @@
 [Spring Framework](#Spring-Framework)    
 [Git](#Git)
 
+<details>
+  <summary>Spring Framework</summary>
+
 # Spring Framework
 ## Spring Core
 
@@ -154,6 +157,7 @@ WebSockets — это двунаправленное, **постоянное** �
 #### 10. Differences between `applicationContext.xml` and `spring-servlet.xml` in Spring
 In short, `applicationContext` is the central interface in Spring. It provides configuration information for an application. `spring-servlet.xml`is part of the Spring MVC framework. We declare in this file the component scans for controllers.
 
+</details>
 
 # Common question
 
