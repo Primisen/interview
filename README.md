@@ -250,6 +250,8 @@ controllers.
 
 </details>
 
+------
+
 </details>
 
 
@@ -631,6 +633,8 @@ FIFO — First in first out
 <details>
     <summary>Version Control Systems</summary>
 
+## Version Control Systems
+
 <details>
 <summary>Common questions</summary>
 
@@ -660,6 +664,9 @@ FIFO — First in first out
 * SVN проще Git'а в освоении
 
 </details>
+
+
+
 
 <details>
 <summary>Git</summary>
@@ -735,6 +742,9 @@ Git rebase:
 `git stash applye` — возвращает отложенные изменения
 
 </details>
+
+----
+
 </details>
 
 
@@ -743,6 +753,7 @@ Git rebase:
 <details>
 <summary>Build Tools</summary>
 
+## Build tools
 
 <details>
 <summary>Common questions</summary>
@@ -901,6 +912,8 @@ java-библиотек, плагинов, любого другого прил�
 и `<plugins>`.
 
 </details>
+
+----
 
 </details>
 
