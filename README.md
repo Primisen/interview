@@ -392,7 +392,18 @@ https://easyjava.ru/spring/spring-data-access/izolyaciya-i-rasprostranenie-tranz
 
 # Common programming knowledge
 
+<details>
+    <summary>Common</summary>
 
+#### 1. What is linter? 
+The linter is code analyzer. Linter automated checking of source code for programmatic and stylistic errors.
+
+#### 2. Linters  for Java
++ Checkstyle. Support both sun code convention and Google Java Style.
++ Lightrun. Allow dynamically adding logs, metrics and breakpoints without requiring code changes, application restarts, or redeployment
++ PMD. Multi-language analysis. It is very helpful if we want to use a single linter for the frontend and backend codebase.
+
+</details>
 
 <details>
     <summary>Algorithms</summary>
